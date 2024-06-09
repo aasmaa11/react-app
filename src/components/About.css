@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+@media (max-width: 400px) { 
+    .about .titleAbout{
+        margin-bottom: 20px;
+        
+    }
+    .contactIcon .element a, .contactIcon .element2{
+        font-size: 45px;
+    }
+    .contactIcon .element2 a{
+        font-size:0.7rem;
+        width: fit-content;
+        height: 100%;
+    }
+
+    .contactIcon .element2 a:hover{
+        font-size:1.1rem;
+    }
+    .partOne{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .partTwo{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .about h3{
+        font-size: 18px;
+        margin-left: 10px;
+        
+    }
+
+    .about .montreal{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .about .montreal img{
+        height: 12px;
+    
+    }
+
+    .about h1{
+        font-size: 35px;
+    }
+
+
+}
+
+@media (min-width: 400px) { 
+    .contactIcon .element a, .contactIcon .element2{
+        font-size: 50px;
+    }
+    .contactIcon .element2 a{
+        font-size:1rem;
+        width: 200px;
+        height: 55px;
+    }
+
+    .contactIcon .element2 a:hover{
+        font-size:1.1rem;
+    }
+    .partOne{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .partTwo{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .about .titleAbout{
+        margin-bottom: 120px;
+        
+    }
+
+    .about h3{
+        font-size: 25px;
+        margin-left: 30px;
+        
+    }
+
+    .about .montreal{
+        font-size: 15px;
+        margin-left: 30px;
+    }
+
+    .about .montreal img{
+        height: 15px;
+    
+    }
+
+    .about h1{
+        font-size: 45px;
+    }
+
+
+}
+
+@media (min-width: 521px) { 
+    .partOne{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .partTwo{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+
+
+    .about h3{
+        font-size: 30px;
+        margin-left: 50px;
+        
+    }
+
+    .about .montreal{
+        font-size: 20px;
+        margin-left: 50px;
+    }
+
+    .about .montreal img{
+    height: 20px;
+    
+}
+
+.about h1{
+    font-size: 50px;
+}
+
+
+}
+
+@media (min-width: 1199.98px) { 
+    .partOne{
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+
+    .partTwo{
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+
+    .about .titleAbout{
+        margin-bottom: 150px;
+        
+    }
+}
+
+.about h3{
+
+    font-family: "Fira Code";
+    font-weight: 300;
+    margin-top: 20px;
+    
+}
+
+.about .montreal{
+    font-family: "Fira Code";
+    font-weight: 300;
+    margin-top: 20px;
+    
+    display: flex;
+    align-items: baseline;
+    column-gap: 10px;
+}
+
+.about .montreal img{
+    transform: rotate(10deg);
+    filter: brightness(0) invert(1);
+    
+}
+
+.about h1{
+    font-family: "Fira Code";
+}
+
+.about .titleAbout{
+    color:rgba(240, 248, 255, 0);
+}
+
+.contactIcon {
+    display: flex;
+    flex-direction: row;
+    width:fit-content;
+    margin-top:100px;
+    
+}
+
+.contactIcon .element a, .contactIcon .element2{
+    
+    border: 10px solid white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:white;
+    height: 100%;
+}
+
+
+.contactIcon .element .highlight{
+    transition: .2s ease-in-out 0s;
+    padding: 5px;
+}
+
+.contactIcon .element .highlight:hover{
+    transform: scale(1.2);
+}
+
+.contactIcon .element2 a{
+    font-weight: 500;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: .2s ease-in-out 0s;
+    list-style-type: none;
+    white-space:nowrap;
+    width: fit-content;
+    height: 100%;
+}
+
+
+.contactIcon .element2 a:hover{
+    font-size:1.1rem;
+}

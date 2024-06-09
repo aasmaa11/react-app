@@ -1,0 +1,225 @@
+@media (max-width: 365px) { 
+    .experience .container-fluid .col-md-5 .container{
+        
+        font-size: 30px;
+        
+    }
+}
+
+@media (max-width: 400px) { 
+    .experience h2{
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 450px) and (min-width: 365px) { 
+    .container-fluid h4{
+        font-size: 18px;
+    }
+
+    .container-fluid h6{
+        font-size: 15px;
+    }
+    
+    .container-fluid p{
+        font-size: 14px;
+    }
+
+    .container-fluid h5{
+        font-size: 15px;
+    }
+
+    .experience .container-fluid .col-md-5 .container{
+        
+        font-size: 30px;
+        
+    }
+
+
+}
+
+@media (min-width: 450px) { 
+    .container-fluid h4{
+        font-size: 20px;
+    }
+
+    .container-fluid h6{
+        font-size: 17px;
+    }
+    
+    .container-fluid p{
+        font-size: 16px;
+    }
+
+    .container-fluid h5{
+        font-size: 17px;
+    }
+
+    .experience .container-fluid .col-md-5 .container{
+        font-size: 40px;
+        
+    }
+}
+
+
+
+@media (min-width: 400px) { 
+    .experience h2{
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 521px) { 
+    .experience h2{
+        margin-right: 50px;
+        margin-left: 50px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1013px) { 
+    .container-fluid .row .col-md-5{
+        width: 100%;
+        margin-bottom: 10px;
+        height: fit-content;
+    }
+}
+
+@media (min-width: 1013px) { 
+    .container-fluid .row .col-md-5{
+        margin-bottom: 0px;
+        height: 100%;
+    }
+}
+
+@media (min-width: 1199.98px) { 
+
+
+    .experience h2{
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+    
+}
+
+.experience{
+    margin-top: 200px;
+}
+
+.experience .transparent{
+    margin-bottom: 70px;
+    color:#1b1f2300;
+}
+
+
+.experience .container-fluid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.experience  .container-fluid .row{
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.container-fluid .row .col-md-5{
+    margin-top: 0px;
+    background-color: #1b1f23a7;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.container-fluid h4{
+    font-weight:400;
+}
+
+.container-fluid h6{
+    font-weight:200;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.container-fluid p{
+    width: 95%;
+    font-weight:100;
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height: 2;
+}
+
+.container-fluid h5{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.coursework{
+    margin: 0px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridx{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.coursework .gridx .row{
+    display: flex;
+    justify-content: center;
+    column-gap: 0px;
+    width: 100%;
+    margin: 0px;
+    
+}
+
+.coursework .row .col{
+    height: 70px;
+    width: 100%;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 20px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    transition: border-color 0.5s ease;
+}
+
+.coursework .row .col:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.experience .container-fluid .col-md-5 .container{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border-radius: 50px;
+    width: fit-content;
+    margin-left: 0px;
+}
+
+.experience .container-fluid .col-md-5 .container .currentTech{
+    margin-right: 15px;
+}

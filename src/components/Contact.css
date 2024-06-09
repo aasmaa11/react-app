@@ -1,0 +1,100 @@
+@media (max-width: 400px) { 
+  .contact h2{
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 18px;
+      
+  }
+
+  .contact a{
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 400px) { 
+  .contact h2{
+    margin-right: 30px;
+    margin-left: 30px;
+      font-size: 25px;
+  }
+
+  .contact a{
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 521px) { 
+  .contact h2{
+    margin-right: 50px;
+    margin-left: 50px;
+      font-size: 30px;
+  }
+
+  .contact a{
+    margin-left: 100px;
+  }
+}
+
+@media (min-width: 1199.98px) { 
+
+
+  .contact h2{
+      margin-right: 150px;
+      margin-left: 150px;
+  }
+
+  .contact a{
+    margin-left: 200px;
+  }
+  
+}
+
+
+
+.contact .transparent{
+  margin-bottom: 70px;
+  color: rgba(255, 255, 255, 0);
+}
+
+.contact a{
+    background-color: rgba(0, 0, 0, 0.365);
+    font-size: 20px;
+    color: white;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 100;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    transition: all ease 0.5s;
+
+}
+
+.contact a:hover{
+  background-color: azure;
+  color: black;
+}
+
+.contact .linkContainer{
+  margin-top: 50px;
+  margin-bottom: 250px;
+  width: 100%;
+}
+
+
+
+
+
+.line{
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(206, 230, 255), rgba(0, 0, 0, 0));
+}
+
+.copyright{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
